@@ -1,0 +1,9 @@
+# core-ci
+
+machine: precise64-mono
+
+script:
+  - test: |
+    sudo apt-get update
+    id
+    echo Hello World
