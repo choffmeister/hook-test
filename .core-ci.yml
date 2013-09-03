@@ -2,8 +2,7 @@
 
 machine: precise64-mono
 
-script:
-  - test: |
-    sudo apt-get update
-    id
-    echo Hello World
+script: |
+  sudo apt-get update
+  id
+  echo Hello World
